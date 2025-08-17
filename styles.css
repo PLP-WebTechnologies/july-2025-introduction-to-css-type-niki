@@ -1,0 +1,115 @@
+
+/* ====== Colors ====== */
+:root {
+  --primary: #1A1A2E;   /* Background blue */
+  --secondary: #16213E; /* Dark indigo */
+  --accent: #E94560;    /* Raspberry */
+  --black: #0F3460;      /* Black */
+  --grey: #C5C6C7;       /* Light grey */
+  --golden-brown: #D4AF37; /* Golden brown */
+}
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.section-card {
+  background-color: var(--secondary);
+  color: var(--grey);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 80%;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--primary);
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+/* ====== Header ====== */
+header {
+  background-color: var(--secondary);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  color: var(--golden-brown);
+}
+
+nav a {
+  color: var(--grey);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* ====== Sections ====== */
+section {
+  padding: 2rem;
+  text-align: left;
+}
+
+section h2 {
+  color: var(--golden-brown);
+  margin-bottom: 1rem;
+}
+
+/* ====== Buttons ====== */
+button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--golden-brown);
+  color: black;
+}
+
+/* ====== Projects ====== */
+.project {
+  background-color: var(--secondary);
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 8px;
+}
+
+/* ====== Contact form ====== */
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+  
+}
+
+.box {
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--black);
+  margin: 0;
+  width: 400px
+ 
+}
+
